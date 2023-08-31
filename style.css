@@ -1,0 +1,268 @@
+/*  */
+.css-login-body {
+    background-color: #101010;
+}
+
+
+/*  */
+.css-body {
+    display: flex;
+    background-color: #101010;
+    min-height: 98vh;
+    height: auto;
+    max-width: 99vw;
+    margin: 1vh 0.5vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: clamp(0.4vh, 0.9vw, 1.8vh) !important;
+}
+
+.css-header {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 1vh;
+    padding: 0;
+}
+
+.css-nav {
+    max-height: 12vh;
+    width: 99vw;
+}
+
+.css-main {
+    min-height: 79vh;
+    height: auto;
+    margin-bottom: 1vh;
+}
+
+.css-quest {
+    min-height: 25vh;
+    max-height: 35vh;
+    height: auto;
+}
+
+.css-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    width: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ceceff;
+    /* background: #f1f1ff; */
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #70f;
+}
+
+.css-img-profile {
+    object-fit: cover;
+}
+
+#olhinho {
+    transition: all 0.5s;
+}
+
+.showPassword {
+    border: #f1f1ff 1px solid !important;
+}
+
+.css-h1-size {
+    font-size: clamp(0.6vh, 1.8vw, 5vh) !important;
+}
+
+.css-h2-size {
+    font-size: clamp(0.5vh, 1.5vw, 4.5vh) !important;
+}
+
+.css-h3-size {
+    font-size: clamp(0.4vh, 1.2vw, 3.6vh) !important;
+}
+
+.css-h4-size {
+    font-size: clamp(0.4vh, 1.0vw, 3.6vh) !important;
+}
+
+.css-txt-size {
+    font-size: clamp(0.3vh, 0.8vw, 1.8vh) !important;
+}
+
+.css-input {
+    font-size: clamp(0.3vh, 0.8vw, 1.8vh) !important;
+    height: auto !important;
+}
+
+.btn {
+    border-color: transparent !important;
+}
+
+.css-btn-purple {
+    font-size: clamp(0.3vh, 0.8vw, 1.8vh) !important;
+    color: #f1f1ff;
+    background-color: #70f;
+}
+
+.css-btn-light {
+    font-size: clamp(0.3vh, 0.8vw, 1.8vh) !important;
+    color: #000;
+    background-color: #ceceff;
+}
+
+.css-btn-white {
+    font-size: clamp(0.3vh, 0.8vw, 1.8vh) !important;
+    color: #000;
+    background-color: #f1f1ff;
+}
+
+.css-btn-purple:hover {
+    color: #000 !important;
+    background-color: #ceceff;
+}
+
+.css-btn-light:hover {
+    color: #f1f1ff !important;
+    background-color: #70f;
+}
+
+.css-btn-white:hover {
+    color: #f1f1ff !important;
+    background-color: #70f;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 .5rem .10rem #70f;
+}
+
+.css-bg-purple {
+    background-color: #70f;
+    color: #000;
+}
+
+.css-bg-light {
+    background-color: #ceceff;
+    color: #000;
+}
+
+.css-bg-white {
+    background-color: #f1f1ff;
+    color: #000;
+}
+
+
+
+
+
+
+
+::selection {
+    color: #fff;
+    background: #5372F0;
+}
+
+.wrapper {
+    width: 496px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 18px 25px 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.06);
+}
+
+.wrapper :where(.title, li, li i, .details) {
+    display: flex;
+    align-items: center;
+}
+
+.title img {
+    max-width: 21px;
+}
+
+.title h2 {
+    font-size: 21px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.wrapper .content {
+    margin: 10px 0;
+}
+
+.content p {
+    font-size: 15px;
+}
+
+.content ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7px;
+    margin: 12px 0;
+    border-radius: 5px;
+    border: 1px solid #a6a6a6;
+}
+
+.content ul li {
+    color: #333;
+    margin: 4px 3px;
+    list-style: none;
+    border-radius: 5px;
+    background: #F2F2F2;
+    padding: 5px 8px 5px 10px;
+    border: 1px solid #e3e1e1;
+}
+
+.content ul li i {
+    height: 20px;
+    width: 20px;
+    color: #808080;
+    margin-left: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #dfdfdf;
+    justify-content: center;
+}
+
+.content ul input {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.wrapper .details {
+    justify-content: space-between;
+}
+
+.details button {
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 9px 15px;
+    border-radius: 5px;
+    background: #5372F0;
+    transition: background 0.3s ease;
+}
+
+.details button:hover {
+    background: #2c52ed;
+}
